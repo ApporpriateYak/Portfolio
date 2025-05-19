@@ -1,0 +1,91 @@
+body{
+    background-color: #222831;
+    position: relative;
+    min-height: 97.5vh;
+
+}
+.mode{
+    margin: 0%;
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.mode:hover{
+    transform: scale(1.05);
+}
+.box{
+    text-align: center;
+    background-color: #393E46;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0%;
+    max-width: 600px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #EEEEEE;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -50px;
+
+}
+.tx{
+   font-size: 90px;
+}
+.nam{
+    color: #00ADB5;
+}
+.icon{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center; 
+    align-self: center; 
+    padding-left: 20px;
+    padding-right: auto;   
+    cursor: pointer;
+}
+.me, .pr{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.call{
+    width: 38%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #EEEEEE;
+  font-size: 16px;
+}
+.icon img:hover{
+    transform: scale(1.05);
+}
+.bottom-bar {
+    height: 200px;
+    background-color: #00ADB5; 
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
